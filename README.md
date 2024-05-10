@@ -1,4 +1,10 @@
+
+
 # Plim AI
+
+<p align="center">
+  <img src="https://i.ibb.co/X89LWXs/Whats-App-Image-2024-05-10-at-18-38-41.jpg" alt="Logo do Plim AI" width="200" height="200">
+</p>
 
 Plim AI é um serviço inovador desenvolvido para o desafio de imersão em IA da Alura com a Google. Este projeto permite a geração automática de descrições para vídeos, utilizando dados extraídos de perfis públicos do Instagram. O serviço utiliza o modelo Gemini do Google para criar instruções sistemáticas que, através de um processo de few-shot learning, geram descrições precisas e contextualizadas para cada vídeo.
 
