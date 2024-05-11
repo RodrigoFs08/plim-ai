@@ -1,0 +1,73 @@
+/* App.css */
+@font-face {
+  font-family: 'TheBoldFont';
+  src: url('../public/fonts/bold_font.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'TheBoldFont', sans-serif;
+  background-color: rgb(10, 25, 47);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: rgb(10, 25, 47);
+  /* Adicionando múltiplas camadas de sombra para um efeito metálico */
+  box-shadow: 
+    0 4px 6px rgba(255, 255, 255, 0.1),  /* Brilho sutil */
+    0 6px 12px rgba(0, 0, 0, 0.2),      /* Sombra mais escura para profundidade */
+    0 10px 20px rgba(255, 255, 255, 0.15), /* Brilho adicional */
+    0 2px 2px rgba(255, 255, 255, 0.2) inset; /* Brilho interno para efeito metálico */
+  width: 90%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #012042;
+  box-shadow: 
+  0 4px 6px rgba(255, 255, 255, 0.1),  /* Brilho sutil */
+  0 6px 12px rgba(0, 0, 0, 0.2),      /* Sombra mais escura para profundidade */
+  0 10px 20px rgba(255, 255, 255, 0.15), /* Brilho adicional */
+  0 2px 2px rgba(255, 255, 255, 0.2) inset; /* Brilho interno para efeito metálico */
+}
+
+button {
+  background-color: #012042;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+

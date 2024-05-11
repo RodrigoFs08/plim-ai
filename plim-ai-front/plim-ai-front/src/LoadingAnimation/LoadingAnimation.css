@@ -1,0 +1,10 @@
+/* LoadingAnimation.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
